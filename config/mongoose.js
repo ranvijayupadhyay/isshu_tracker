@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/Issue-Tracker');
+mongoose.connect('mongodb+srv://ranvijaynath20021999:Ranvijay123@cluster0.sk4hgam.mongodb.net/?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'Error in connecting to MongoDB'));
